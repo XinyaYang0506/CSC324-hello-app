@@ -1,4 +1,5 @@
 require 'test_helper'
+require 'rails-controller-testing'
 
 class StaticPagesControllerTest < ActionDispatch::IntegrationTest
   def setup
@@ -21,5 +22,15 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     get about_path
     assert_response :success
     assert_select "title", "About | #{@base_title}"
+  end
+
+  test "should get stories" do
+    get stories_path
+    assert_response :success
+  end
+
+  test "result in stories should not be nil" do
+    get stories_path
+    assert_not_nil(assigns(@result), "@result should not be nil" )
   end
 end
