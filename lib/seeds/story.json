@@ -1,0 +1,32 @@
+{
+    "category":["supplies"],
+    "resources":[
+        {
+            "name": "surgical mask", 
+            "amount": 100, 
+            "value in $": 50
+        }
+    ],
+    "choices":[
+        "Store them for potential future need by family members or friends", 
+        "Donate them to doctors and nurses fighting for COVID-19", 
+        "Donate them to the homelesses who do not have masks at all"
+    ]
+
+},
+{
+    "category":["supplies"],
+    "resources":[
+        {
+            "name": "n95 mask", 
+            "amount": 20, 
+            "value in $": 20
+        }
+    ],
+    "choices":[
+        "Store them for potential future need by family members or friends", 
+        "Donate them to doctors and nurses fighting for COVID-19", 
+        "Donate them to the homelesses who do not have masks at all"
+    ]
+
+}
