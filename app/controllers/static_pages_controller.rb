@@ -9,6 +9,6 @@ class StaticPagesController < ApplicationController
   end
 
   def stories
-    @result = (1..6).to_a.shuffle.first
+    @story_number = (1..3).to_a.shuffle.first
   end
 end

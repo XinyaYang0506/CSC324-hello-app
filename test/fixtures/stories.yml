@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  PPE_type1: MyString
+  Amount1: MyString
+  Recipient1: MyString
+  PPE_type2: MyString
+  Amount2: MyString
+  Recipient2: MyString
+
+two:
+  PPE_type1: MyString
+  Amount1: MyString
+  Recipient1: MyString
+  PPE_type2: MyString
+  Amount2: MyString
+  Recipient2: MyString

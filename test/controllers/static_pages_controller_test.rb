@@ -31,6 +31,6 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
 
   test "result in stories should not be nil" do
     get stories_path
-    assert_not_nil(assigns(@result), "@result should not be nil" )
+    assert_not_nil(assigns(@story_number), "@result should not be nil" )
   end
 end

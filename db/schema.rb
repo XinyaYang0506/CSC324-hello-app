@@ -10,7 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20200429030631) do
+ActiveRecord::Schema.define(version: 20200430201442) do
+
+  create_table "stories", force: :cascade do |t|
+    t.string "PPE_type1"
+    t.string "Amount1"
+    t.string "Recipient1"
+    t.string "PPE_type2"
+    t.string "Amount2"
+    t.string "Recipient2"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "name"

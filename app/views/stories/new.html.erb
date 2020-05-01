@@ -1,0 +1,23 @@
+<% provide(:title, 'New Story') %>
+   <h1>Creat A New Story</h1>
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <%= form_with model: @story do |form| %> 
+            <%= form.label(:PPE_type1, "PPE_type1") %>
+            <%= form.text_field(:PPE_type1) %>
+            <%= form.label(:Amount1, "Amount1") %>
+            <%= form.text_field(:Amount1) %>
+            <%= form.label(:Recipient1, "Recipient1") %>
+            <%= form.text_field(:Recipient1) %>
+
+            <%= form.label(:PPE_type2, "PPE_type2") %>
+            <%= form.text_field(:PPE_type2) %>
+            <%= form.label(:Amount2, "Amount2") %>
+            <%= form.text_field(:Amount2) %>
+            <%= form.label(:Recipient2, "Recipient2") %>
+            <%= form.text_field(:Recipient2) %>
+
+            <%= submit_tag("Create this story", class: "btn btn-primary") %>
+        <% end %>
+    </div>
+</div>

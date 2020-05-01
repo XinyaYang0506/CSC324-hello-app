@@ -1,0 +1,36 @@
+<% provide(:title, @story.id) %> 
+<div class="row">
+  <aside class="col-md-4"> 
+  <section class="user_info">
+  <h1>
+    Story <%=@story.id %> 
+  </h1>
+  <body>
+  <table >
+    <tr>
+    <th> </th>
+    <th>Option 1</th>
+    <th>Option 2</th>
+    </tr>
+
+    <tr>
+      <td>PPE_type</td>
+      <td><%= @story.PPE_type1 %></td>
+      <td><%= @story.PPE_type2 %></td>
+    </tr> 
+
+    <tr>
+      <td>Amount</td>
+      <td><%= @story.Amount1 %></td>
+      <td><%= @story.Amount2 %></td>
+    </tr> 
+
+    <tr>
+      <td>Recipient</td>
+      <td><%= @story.Recipient1 %></td>
+      <td><%= @story.Recipient2 %></td>
+    </tr> 
+  </table>
+  </section>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+</div>
